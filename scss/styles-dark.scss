@@ -1,0 +1,177 @@
+:root {
+  --primary-color: #22232B;
+  --secondary-color: #20A8D8;
+  --grey-text-color: #3E515B;
+  --social-icon-bg: #EDEFF4;
+  --social-icon-color: #9D9FA7;
+  --nav-icon-bg: #2A2C36;
+  --nav-icon-color: #BDCDD6;
+  --main-bg: #EDEFF4;
+  --white: #fff;
+
+}
+
+.sidebar {
+  background-color: var(--primary-color);
+
+  &__nav {
+    background-color: var(--primary-color);
+  }
+
+  &__bar1,
+  &__bar2 {
+    background-color: var(--white);
+  }
+
+  &__nav-link {
+    background-color: var(--nav-icon-color);
+
+    &:hover {
+      background-color: var(--nav-icon-bg);
+
+      .nav-icon {
+        color: var(--nav-icon-color);
+      }
+    }
+  }
+
+  .nav-icon {
+    color: var(--nav-icon-bg);
+  }
+}
+
+.main {
+  background-color: var(--nav-icon-bg);
+
+  .blocks-item {
+    background-color: var(--primary-color);
+
+    &__title {
+      color: var(--main-bg);
+    }
+
+    &__add-item {
+      color: var(--secondary-color);
+    }
+
+    &__add-item::after {
+      border-bottom: 1px solid var(--secondary-color);
+    }
+
+    &__text-note {
+      color: var(--nav-icon-color);
+    }
+
+    &__price-text {
+      color: var(--main-bg);
+    }
+
+    &__price {
+      color: var(--main-bg);
+    }
+  }
+
+  .column-item {
+    &__icon {
+      color: var(--secondary-color);
+    }
+
+    &__select {
+      border: 1px solid #BDCDD6;
+      --bs-form-select-bg-img: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%2338B1DC' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+      color: var(--main-bg);
+      background-color: var(--primary-color);
+    }
+
+    &__label {
+      background-color: var(--primary-color);
+      color: var(--main-bg);
+    }
+
+    &__icon-sup {
+      color: var(--secondary-color);
+    }
+
+    &__text {
+      color: var(--nav-icon-color);
+    }
+
+    &__item-price {
+      color: var(--main-bg);
+    }
+
+    &__item-price::after {
+      background-color: var(--primary-color);
+      border-bottom: 1px dashed var(--secondary-color);
+    }
+  }
+
+
+  .button {
+    &__item {
+      color: var(--main-bg);
+      background-color: transparent;
+      border: 2px solid var(--secondary-color);
+
+      &:hover {
+        color: var(--main-bg);
+        background-color: var(--secondary-color);
+      }
+
+      &--bg {
+        color: var(--main-bg);
+        background-color: var(--secondary-color);
+
+        &:hover {
+          color: var(--main-bg);
+          background-color: transparent;
+        }
+      }
+    }
+  }
+
+  &__text-add{
+    color: var(--nav-icon-color);
+  }
+  &__total-price{
+    color: var(--main-bg);
+  }
+
+}
+
+
+.footer {
+  background-color: var(--primary-color);
+
+  &__copyright {
+    color: var(--nav-icon-color);
+  }
+
+  &__social-link {
+    background-color: var(--social-icon-color);
+
+    &:hover {
+      background-color: var(--social-icon-bg);
+
+      .social-icon {
+        color: var(--social-icon-color);
+      }
+    }
+  }
+}
+
+.nav {
+  &__link {
+    color: var(--main-bg);
+  }
+}
+
+.social-icon {
+  color: var(--social-icon-bg);
+}
+
+.menu-btn {
+  &__arrow {
+    color: var(--main-bg);
+  }
+}

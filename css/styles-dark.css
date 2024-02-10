@@ -1,0 +1,135 @@
+:root {
+  --primary-color: #22232B;
+  --secondary-color: #20A8D8;
+  --grey-text-color: #3E515B;
+  --social-icon-bg: #EDEFF4;
+  --social-icon-color: #9D9FA7;
+  --nav-icon-bg: #2A2C36;
+  --nav-icon-color: #BDCDD6;
+  --main-bg: #EDEFF4;
+  --white: #fff;
+}
+
+.sidebar {
+  background-color: var(--primary-color);
+}
+.sidebar__nav {
+  background-color: var(--primary-color);
+}
+.sidebar__bar1, .sidebar__bar2 {
+  background-color: var(--white);
+}
+.sidebar__nav-link {
+  background-color: var(--nav-icon-color);
+}
+.sidebar__nav-link:hover {
+  background-color: var(--nav-icon-bg);
+}
+.sidebar__nav-link:hover .nav-icon {
+  color: var(--nav-icon-color);
+}
+.sidebar .nav-icon {
+  color: var(--nav-icon-bg);
+}
+
+.main {
+  background-color: var(--nav-icon-bg);
+}
+.main .blocks-item {
+  background-color: var(--primary-color);
+}
+.main .blocks-item__title {
+  color: var(--main-bg);
+}
+.main .blocks-item__add-item {
+  color: var(--secondary-color);
+}
+.main .blocks-item__add-item::after {
+  border-bottom: 1px solid var(--secondary-color);
+}
+.main .blocks-item__text-note {
+  color: var(--nav-icon-color);
+}
+.main .blocks-item__price-text {
+  color: var(--main-bg);
+}
+.main .blocks-item__price {
+  color: var(--main-bg);
+}
+.main .column-item__icon {
+  color: var(--secondary-color);
+}
+.main .column-item__select {
+  border: 1px solid #BDCDD6;
+  --bs-form-select-bg-img: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%2338B1DC' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+  color: var(--main-bg);
+  background-color: var(--primary-color);
+}
+.main .column-item__label {
+  background-color: var(--primary-color);
+  color: var(--main-bg);
+}
+.main .column-item__icon-sup {
+  color: var(--secondary-color);
+}
+.main .column-item__text {
+  color: var(--nav-icon-color);
+}
+.main .column-item__item-price {
+  color: var(--main-bg);
+}
+.main .column-item__item-price::after {
+  background-color: var(--primary-color);
+  border-bottom: 1px dashed var(--secondary-color);
+}
+.main .button__item {
+  color: var(--main-bg);
+  background-color: transparent;
+  border: 2px solid var(--secondary-color);
+}
+.main .button__item:hover {
+  color: var(--main-bg);
+  background-color: var(--secondary-color);
+}
+.main .button__item--bg {
+  color: var(--main-bg);
+  background-color: var(--secondary-color);
+}
+.main .button__item--bg:hover {
+  color: var(--main-bg);
+  background-color: transparent;
+}
+.main__text-add {
+  color: var(--nav-icon-color);
+}
+.main__total-price {
+  color: var(--main-bg);
+}
+
+.footer {
+  background-color: var(--primary-color);
+}
+.footer__copyright {
+  color: var(--nav-icon-color);
+}
+.footer__social-link {
+  background-color: var(--social-icon-color);
+}
+.footer__social-link:hover {
+  background-color: var(--social-icon-bg);
+}
+.footer__social-link:hover .social-icon {
+  color: var(--social-icon-color);
+}
+
+.nav__link {
+  color: var(--main-bg);
+}
+
+.social-icon {
+  color: var(--social-icon-bg);
+}
+
+.menu-btn__arrow {
+  color: var(--main-bg);
+}/*# sourceMappingURL=styles-dark.css.map */

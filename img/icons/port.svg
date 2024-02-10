@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="36" height="36">
+	<title>port</title>
+	<defs>
+		<image  width="36" height="36" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAMAAADW3miqAAAAAXNSR0IB2cksfwAAAHtQTFRFIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYIKjYX0z5KQAAACl0Uk5TPLnFxDq//73Gx+rI5yoA6c7P+n8/QUIRQIL7ODYwL3QBd/zMzf6+tzslU7nsAAAAl0lEQVR4nO3UyxaCMAxF0dCiJlTqC0EFBd/+/xfCWtRmoLFMnHGm2dMbgEjpn6kohsk02AwwjAh0GOkeJWi+RIQJo3lqhdKFR0oy1qJHRkZmRCP6CyIZkUdLGa08Wm+ybVde8LHId13Z/sCTcpWMys/duSpGlYiOjE4iqpu3ac4iulzJDfx2F5GQHvJ6cMgTe0D8DL7DVwt3WjO6EzEZJwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="port" href="#img1" x="0" y="0"/>
+</svg>
